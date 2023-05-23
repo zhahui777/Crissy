@@ -1,0 +1,66 @@
+{
+  "name": "crissy",
+  "version": "3.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@icon-park/vue-next": "^1.4.2",
+    "core-js": "^3.8.3",
+    "gsap": "^3.11.5",
+    "imagesloaded": "^5.0.0",
+    "masonry-layout": "^4.2.2",
+    "nprogress": "^0.2.0",
+    "p5": "^1.6.0",
+    "pinia": "^2.0.35",
+    "swiper": "^9.2.0",
+    "three": "^0.152.2",
+    "vue": "^3.2.13",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@types/imagesloaded": "^4.1.2",
+    "@types/masonry-layout": "^4.2.5",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "D:/Git/Crissy"
+  },
+  "keywords": [
+    "Crissy"
+  ],
+  "author": "月下闲人",
+  "license": "GPL-3.0"
+}
